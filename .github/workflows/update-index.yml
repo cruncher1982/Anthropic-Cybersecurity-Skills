@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'skills/**'
+      - '.github/workflows/update-index.yml'
+  workflow_dispatch:
 
 jobs:
   update-index:
